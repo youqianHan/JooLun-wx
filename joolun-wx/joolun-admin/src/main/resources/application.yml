@@ -53,7 +53,7 @@ spring:
   # redis 配置
   redis:
     # 地址
-    host: localhost
+    host: 39.106.87.178
     # 端口，默认为6379
     port: 6379
     # 数据库索引
@@ -123,14 +123,14 @@ wx:
   # 公众号配置
   mp:
     configs:
-      - appId: xxxxxxxx
-        secret: xxxxxxxxxxxxxxxxxxxxxxxxxx
-        token: xxxxxxxxxx
-        aesKey: xxxxxxxxxxxxxxxxxxxx
+      - appId: wx13ac3b3d79ef55c4
+        secret: 2163792466e194a313c2856eaf26ce3f
+        token: hyjj0801
+        aesKey: 5UAMi0pMEkgSznTRdM8SH9nqMPF7elImA1gdxnsEgmV
   # 小程序配置
   ma:
     configs:
-      - appId: xxxxxxxxxxxxxxxx
+      - appId: wx13ac3b3d79ef55c4
         secret: xxxxxxxxxxxxx
         # 微信支付商户号，请去微信支付平台申请
         mchId: 1588227511
